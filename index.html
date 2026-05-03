@@ -338,10 +338,10 @@ body{font-family:'IBM Plex Sans',sans-serif;background:var(--bg);color:var(--t1)
 .matrix-preview-title{font-size:10.5px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--t3);margin-bottom:8px}
 .matrix-mini{position:relative;width:100%;aspect-ratio:2/1;border:1px solid var(--border);border-radius:var(--r);overflow:hidden;background:white}
 .mm-q{position:absolute;display:flex;align-items:center;justify-content:center;font-size:8px;font-weight:600;text-transform:uppercase;letter-spacing:.04em}
-.mm-q-tl{top:0;left:0;width:50%;height:50%;background:rgba(249,250,251,.9);color:var(--t4)}
-.mm-q-tr{top:0;right:0;width:50%;height:50%;background:rgba(236,253,245,.7);color:#065F46}
-.mm-q-bl{bottom:0;left:0;width:50%;height:50%;background:rgba(254,242,242,.7);color:#7F1D1D}
-.mm-q-br{bottom:0;right:0;width:50%;height:50%;background:rgba(255,251,235,.7);color:#78350F}
+.mm-q-tl{top:0;left:0;width:50%;height:50%;background:rgba(236,253,245,.7);color:#065F46}
+.mm-q-tr{top:0;right:0;width:50%;height:50%;background:rgba(255,251,235,.7);color:#78350F}
+.mm-q-bl{bottom:0;left:0;width:50%;height:50%;background:rgba(249,250,251,.9);color:var(--t4)}
+.mm-q-br{bottom:0;right:0;width:50%;height:50%;background:rgba(254,242,242,.7);color:#7F1D1D}
 .mm-cross-h{position:absolute;top:50%;left:0;right:0;height:1px;background:var(--border2)}
 .mm-cross-v{position:absolute;left:50%;top:0;bottom:0;width:1px;background:var(--border2)}
 .mm-dot{position:absolute;transform:translate(-50%,-50%);width:14px;height:14px;border-radius:50%;border:2px solid white;box-shadow:0 1px 4px rgba(0,0,0,.2);transition:all .3s;z-index:2}
@@ -736,7 +736,7 @@ body{font-family:'IBM Plex Sans',sans-serif;background:var(--bg);color:var(--t1)
       </div>
       <div class="matrix-preview">
         <div class="matrix-preview-title">Podgląd pozycji + priorytet</div>
-        <div class="matrix-mini"><div class="mm-q mm-q-tl">Rozważ</div><div class="mm-q mm-q-tr">Rób</div><div class="mm-q mm-q-bl">Unikaj</div><div class="mm-q mm-q-br">Planuj</div><div class="mm-cross-h"></div><div class="mm-cross-v"></div><div class="mm-dot" id="mm-preview-dot" style="left:50%;bottom:50%;background:#9CA3AF;opacity:.4"></div></div>
+        <div class="matrix-mini"><div class="mm-q mm-q-tl">Rób</div><div class="mm-q mm-q-tr">Planuj</div><div class="mm-q mm-q-bl">Rozważ</div><div class="mm-q mm-q-br">Unikaj</div><div class="mm-cross-h"></div><div class="mm-cross-v"></div><div class="mm-dot" id="mm-preview-dot" style="left:50%;bottom:50%;background:#9CA3AF;opacity:.4"></div></div>
         <div class="matrix-preview-hint" id="matrix-preview-hint">Oceń impact i nakład.</div>
       </div>
       <div class="cfo-preview" style="margin-top:12px"><div class="cfo-preview-label">⚡ Test CFO</div><div class="cfo-preview-text" id="cfo-preview-text">Uzupełnij krok 1...</div></div>
