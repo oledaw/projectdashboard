@@ -1103,7 +1103,7 @@ function updateMatrixPreview(){
   if(!selectedImpact||!selectedEffort){dot.style.left='50%';dot.style.bottom='50%';dot.style.background='#9CA3AF';dot.style.opacity='.4';hint.textContent='Oceń impact i nakład.';return;}
   dot.style.left=selectedEffort.value+'%';dot.style.bottom=selectedImpact.value+'%';dot.style.background=catColors[selectedCat]||'#6B7280';dot.style.opacity='1';
   var prio=computePriority(selectedImpact.value,selectedEffort.value);
-  var q=selectedImpact.value>=50?(selectedEffort.value<=50?'📍 Rozważ':'🚀 Rób natychmiast'):(selectedEffort.value<=50?'⚠ Unikaj':'🗓 Planuj');
+  var q=selectedImpact.value>=50?(selectedEffort.value<=50?'🚀 Rób natychmiast':'🗓 Planuj'):(selectedEffort.value<=50?'📍 Rozważ':'⚠ Unikaj');
   hint.textContent=q+' · Priorytet: '+prio.label+' ('+prio.score+'/100)';
 }
 function updateCfoPreview(){
